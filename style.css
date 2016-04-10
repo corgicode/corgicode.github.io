@@ -23,7 +23,7 @@ body {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .lead {
     font-weight: 300;
 }
-#header, #feature, #about, #testimonial, #screenshots, #portfolio, #image, #video, #newsletter, #download, #social {
+#header, #feature, #about, #testimonial, #screenshots, #portfolio, #image, #video, #contact, #download, #social {
   font-family: 'Raleway', sans-serif;
 }
 .p_title {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .lead {
     margin: 40px auto 0 auto;
     border-radius: 50%;
 }
-#image, #video, #newsletter {
+#image, #video, #contact {
     padding-top: 100px;
 }
 .staff img {
