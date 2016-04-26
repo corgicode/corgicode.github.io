@@ -35,11 +35,20 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .lead {
     font-weight:normal;
 }
 .main_title {
+  font-weight: bold;
+  font-size: 70px;
   margin-bottom: 40px;
 }
+.lead.tagline {
+  font-size: 26px;
+  font-weight: bold;
+}
+.white-text {
+  color: white;
+}
 #header {
-    padding-top: 100px;
-    padding-bottom:150px;
+  padding-top: 100px;
+  padding-bottom:150px;
 }
 #feature, #about, #testimonial, #screenshots, #portfolio {
     padding-top: 100px;
@@ -598,3 +607,16 @@ fieldset[disabled] .btn-submit.active {
 }
 
 /* end carousel - testimonial */
+
+
+@media (min-width: 992px) {
+  .staff .column:nth-child(3n+4) {
+    clear: both;
+  }
+}
+@media (max-width: 768px) {
+  .adjectives p {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
