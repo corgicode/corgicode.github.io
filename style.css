@@ -620,3 +620,9 @@ fieldset[disabled] .btn-submit.active {
     margin: 0 auto;
   }
 }
+.adjectives .fa {
+  color: #019FB9;
+}
+#feature .item-icon.item-icon {
+  border-color: #019FB9;
+}
