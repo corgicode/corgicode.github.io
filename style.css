@@ -626,6 +626,9 @@ fieldset[disabled] .btn-submit.active {
   font-size: 90px;
   margin-bottom: 40px;
 }
+.main_title img {
+    max-width: 100%;
+}
 @media (max-width: 768px) {
   .main_title {
     font-size: 50px;
